@@ -1,0 +1,45 @@
+\documentclass[lipt]{article}
+\usepackage{fancyhdr}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage{natbib}
+\begin{document}
+	\title{Second Lecon latex}
+	\section{Utilisation des images}
+	
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor nec diam ac sodales. Fusce auctor nisl non nulla luctus, vel mollis leo volutpat. Sed imperdiet, est at porttitor imperdiet, tellus urna lobortis metus, id fringilla quam odio a metus. 
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{photo2.jpg}
+		\caption{Foudre}
+		\label{fig:deadpool}
+	\end{figure}
+	
+\newpage
+	
+\section{Essai de référence}
+	
+	Revenez vers la Figure\ref{fig:deadpool} et visionnez une photo de Ja Morant sur le site suivant : \href{https://images.app.goo.gl/bccK235QowFbMqBF6}{Ja Morant}.
+	
+\section{Bibliographie}
+.\nolinkurl{Steven Sample for Become A Great Leader}\\
+.\nolinkurl{https://uploads.mwp.mprod.getusinfo.com/uploads/sites/82/2022/12/sample1.pdf}\\
+
+\renewcommand{\bibname}{References}
+\notice{*}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}
+
+
+
+
+
+
+
+
+
+ 
